@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <EditText
+        android:id="@+id/task"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter the task"
+        tools:layout_editor_absoluteX="91dp"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteY="329dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+            android:id="@+id/mail"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="mail" />
+    <Button
+        android:id="@+id/search"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="google_search" />
+    <Button
+
+        android:id="@+id/phone"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+
+</LinearLayout>
+
+
+
