@@ -38,5 +38,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
+        phone.setOnClickListener{
+            val phone = task.text.toString()
+            val i = Intent()
+            i.action = Intent.ACTION_DIAL
+            i.data = Uri.parse("tel:$phone")
+            // i.putExtra(Intent.EXTRA_SUBJECT , "Implicit_Intent")
+            startActivity(i)
+
+        }
+
     }
 }
