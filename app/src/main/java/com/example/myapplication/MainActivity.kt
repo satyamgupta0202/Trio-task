@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
         val phone = findViewById<Button>(R.id.phone)
         val search = findViewById<Button>(R.id.search)
 
-
-
         email.setOnClickListener{
             val work = task.text.toString()
             val i = Intent()
@@ -27,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             i.putExtra(Intent.EXTRA_SUBJECT , "Implicit_Intent")
             startActivity(i)
         }
+
 
 
         search.setOnClickListener{
@@ -45,8 +44,6 @@ class MainActivity : AppCompatActivity() {
             i.data = Uri.parse("tel:$phone")
             // i.putExtra(Intent.EXTRA_SUBJECT , "Implicit_Intent")
             startActivity(i)
-
         }
-
     }
 }

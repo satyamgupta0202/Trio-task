@@ -21,21 +21,28 @@
         tools:layout_editor_absoluteY="329dp" />
 
     <Button
-            android:id="@+id/mail"
-            android:layout_width="205dp"
-            android:layout_height="wrap_content"
-            android:text="mail" />
+        android:id="@+id/mail"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="mail"
+        android:textColorLink="#0D2ACC"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/search"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:text="google_search" />
+        android:text="google_search"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold" />
+
     <Button
 
         android:id="@+id/phone"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:text="Call" />
+        android:text="Call"
+        android:textStyle="bold" />
 
 </LinearLayout>
 
