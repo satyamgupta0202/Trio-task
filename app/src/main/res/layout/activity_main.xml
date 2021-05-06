@@ -11,13 +11,13 @@
 
     <EditText
         android:id="@+id/task"
-        android:layout_width="wrap_content"
+        android:layout_width="229dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Enter the task"
-        tools:layout_editor_absoluteX="91dp"
         android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Enter the task"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="329dp" />
 
     <Button
